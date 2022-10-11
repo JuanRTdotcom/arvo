@@ -1,0 +1,1 @@
+ALTER TABLE `casos`  ADD `hsh` INT(11) NOT NULL  AFTER `extradomiciliarios`,  ADD `mujer_transgenero` INT NOT NULL  AFTER `hsh`,  ADD `trabajador_sexual` INT NOT NULL  AFTER `mujer_transgenero`,  ADD `otro_poblacion_especifica` VARCHAR(500) NOT NULL  AFTER `trabajador_sexual`;
